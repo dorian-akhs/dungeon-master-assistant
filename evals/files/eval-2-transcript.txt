@@ -1,0 +1,64 @@
+Session transcript — The Iron Covenant Campaign, Session 3
+Date: April 8, 2026
+
+DM: You left off having just escaped the Collapsed Tower through the sewers. You're wet, you smell terrible, and Oryn has a gash on her arm from the iron golem's swipe. You emerge in the Tanner's District, just after dark.
+
+PETRA: I want to immediately find somewhere private to look at Oryn's wound. An alley, a doorway, somewhere we're not visible.
+
+DM: You find a recessed doorway between two tanneries. The smell is already so bad here that no one is lingering nearby. Good cover.
+
+ORYN: I use my healing kit. [rolls] Thirteen on Medicine.
+
+DM: The cut is deep but clean. You get the bleeding stopped. It'll leave a scar, Oryn — you're fine with that?
+
+[Player: yeah, Oryn collects scars]
+
+DM: Good. While you're patching up, you hear footsteps coming down the alley — deliberate, not hurried. Then a voice.
+
+SILAS RENN [NPC]: "You left quite a mess in the Collapsed Tower. The Brotherhood is going to have questions."
+
+ORYN: I stand up and put myself between him and Petra.
+
+DM: He steps into the light — this is Silas Renn, Oryn, you've seen him twice before at the Covenant meetings. He's the Brotherhood's liaison to the eastern districts. Mid-forties, nondescript face, the kind of person who's good at not being remembered. He doesn't look threatening right now. He looks tired.
+
+SILAS: "I'm not here on Brotherhood business. I'm here because what you found in that tower changes things. I have information you need, and I need something from you in return."
+
+PETRA: "What did we find that you seem to know about already?"
+
+SILAS: "The manufactory schematics. If the Covenant is building what those plans suggest, the Brotherhood's treaty with them is worth nothing. Which means the city is worth nothing."
+
+---
+
+DM: You three have a long conversation with Silas in that alley. He tells you:
+- The Brotherhood has been in an uneasy peace with the Iron Covenant for eleven years
+- The peace is based on the Covenant's agreement not to deploy autonomous iron constructs within city limits
+- The tower's manufactory is specifically designed for mass production of something called Hollow Knights — autonomous constructs, no operator needed
+- He doesn't have proof, just suspicion and the fact that he intercepted your emergence from the tower
+
+ORYN: I want to know why he's coming to us instead of escalating within the Brotherhood.
+
+SILAS: "Because the two people above me in the eastern district command have both received significant 'gifts' from the Covenant this year. I no longer know which way they'd fall."
+
+PETRA: Can I try to tell if he's lying? Insight check. [rolls] Seventeen.
+
+DM: He believes what he's saying. Whether it's true is another question, but he's not performing this.
+
+---
+
+[Scene break — the Rusted Anchor tavern, later that night]
+
+DM: Silas gives you a location to meet him tomorrow with your answer — a tavern called the Rusted Anchor in the Dockside District. You've never been there before.
+
+ORYN: We find it on our own before the meeting tomorrow, just to scope it out.
+
+DM: Smart. The Rusted Anchor is a working dockers' bar — loud, crowded, the kind of place where no one asks questions because everyone has reasons not to answer them. Back corner has a private booth with a curtain. You file this away.
+
+PETRA: That night in our safehouse I want to study the schematics more carefully. Arcana check? [rolls] Twenty-one.
+
+DM: With that, Petra, you understand exactly what you're looking at. The Hollow Knights aren't just autonomous — they're designed with a specific key frequency. Whoever holds the key controls all of them simultaneously. This isn't just a weapon. It's a remote army with a single operator. You're looking at maybe three hundred units, if the manufactory runs to capacity.
+
+---
+
+DM: Great session. Silas Renn is going to become important — think about how much you trust him. That's the question for next time.
+
+[End of transcript]

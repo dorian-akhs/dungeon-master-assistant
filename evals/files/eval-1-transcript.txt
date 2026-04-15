@@ -1,0 +1,94 @@
+Session transcript — The Fractured Reach Campaign, Session 2
+Date: April 12, 2026
+
+[DM: OK everyone's here, let's pick up from where we left off. You're outside the Merchant's Quarter gate, it's early morning, Cassiel you still have that letter from Thornwood]
+
+DM: The morning fog hangs low over the Merchant's Quarter. The gate guard — the same one who let you through last time — gives you a nod. He seems to recognize Cassiel. The streets are quiet this early, mostly just delivery carts and a few apprentices opening shopfronts.
+
+KAEL: I want to keep my eyes open for anyone following us. Perception check? [rolls] Fourteen.
+
+DM: Good enough. You notice a figure in a gray cloak about half a block back, but they turn into an alley when you look — could be coincidence, could be someone keeping an eye on you. You can't be sure.
+
+LYRA: I want to go directly to Thornwood's shop. We're already late from last session.
+
+DM: You reach Valdris Thornwood's apothecary just as he's unlocking the front door. He looks surprised to see you — and not entirely pleased about it.
+
+THORNWOOD [NPC]: "You're early. Or perhaps I'm late. Either way, come inside before someone sees you loitering."
+
+[He ushers you inside. The shop smells of dried herbs and something sharper — sulfur, maybe. Shelves lined with jars, a worktable covered in papers.]
+
+CASSIEL: "We got your letter, Thornwood. 'Come quickly, lives at stake.' So here we are. What's going on?"
+
+THORNWOOD: "Someone broke into my storeroom two nights ago. Took nothing — or rather, took something I can't prove I had. I need you to find what they took before they use it."
+
+LYRA: "And what exactly was it?"
+
+[Thornwood hesitates. He moves to the window, checks the street.]
+
+THORNWOOD: "A formula. My own work — fifteen years of research. A method for treating the Ash Plague that doesn't rely on Veilstone. If the Merchants' Guild gets their hands on it, they'll lock it behind their own supply chain and people will keep dying while they get rich."
+
+KAEL: "Why do you assume it was the Guild?"
+
+THORNWOOD: "Because they've been watching me for months. And because — well. I grew up in Ironhold. I know how the Guild operates. I saw what they did to my village when they cut off the Veilstone trade."
+
+[DM NOTE: remember to update Thornwood's backstory — I had written Saltmere in my notes initially but we're going with Ironhold as canon now]
+
+DM: He pulls out a small leather notebook and slides it across the table toward Cassiel.
+
+THORNWOOD: "Names of three people I trust. Any one of them may have seen something. The first — Elara — she's a priest at the Temple of the Veil. Quiet woman, sharp eyes. She brought me a sample of the plague last winter that changed everything I thought I understood about how it spreads."
+
+LYRA: Can I examine the notebook? I want to see if there's anything hidden in it, like writing between the lines.
+
+DM: Arcana check for that, or just a careful examination?
+
+LYRA: Just looking carefully. Investigation — [rolls] — nine.
+
+DM: You can see three names and addresses. Nothing hidden that you can detect with a casual look.
+
+---
+
+[SCENE BREAK — Temple of the Veil, midmorning]
+
+DM: The Temple of the Veil is in the Scholar's District — a modest building, older than most of its neighbors. The carved door depicts something like a hand reaching through a curtain. Inside it's cool and smells of incense. A young acolyte at the door tells you Sister Elara is in the reliquary.
+
+KAEL: I'd like to watch the entrance while the others go in. Just in case our tail from earlier reappears.
+
+DM: Good call. Kael stays outside, the others go in.
+
+DM: The reliquary is at the back — a room lined with locked cases holding objects wrapped in cloth. Sister Elara is there, small and gray-haired, cataloguing something by lamplight. She looks up at you both with calm, assessing eyes.
+
+ELARA [NPC]: "You're Thornwood's people. He said you might come." [pause] "Sit down. What I have to tell you takes a moment."
+
+CASSIEL: We sit.
+
+ELARA: "Two nights ago I saw a figure leaving through the alley behind Thornwood's shop. Carrying something wrapped in oilcloth. I didn't think anything of it at the time — deliveries happen at odd hours. But then I heard Thornwood had been... robbed, I suppose you'd call it."
+
+LYRA: "Did you see their face?"
+
+ELARA: "No. But I saw their pin. Guild sigil — but not the standard merchant chapter. The Black Ledger. If you don't know that name, you should."
+
+DM: She says this with some weight. Make note of that — the Black Ledger is a name that seems to mean something serious to her.
+
+---
+
+[SCENE BREAK — The Sunken Archive, late afternoon]
+
+CASSIEL: After talking to Elara, I want to follow up on that second name in the notebook — someone called "the Archivist." The address given is in the undercity.
+
+DM: Right. The third name can wait — let's follow this thread. The address leads you down into what locals call the Sunken Archive — a section of the old city that was never fully demolished when the new city was built on top of it. Part library, part ruin. There's actually a small community down here, scholars and monks who maintain the old records.
+
+DM: You find the Archivist — an elderly gnome named Pell who barely looks up when you enter. His workspace is improbable: thousands of scrolls, a desk that seems to be held together by habit alone.
+
+PELL [NPC]: "Thornwood sent you. Sit, sit." [He gestures at the only clear surface, which is the floor.] "I've been keeping something for him. A copy of the formula — his insurance. He wanted it somewhere the Guild couldn't touch."
+
+LYRA: "So they didn't get everything when they broke in?"
+
+PELL: "Not if you leave here with what I'm about to give you. But there's a price. Not coin. I need you to retrieve something for me from the upper archives — the Merchant's Hall Records Office. I have a standing permit, but they've been blocking my access for three months. Quite illegally, I should note."
+
+KAEL: [having rejoined the group] What's in those records?
+
+PELL: "Evidence that the Black Ledger has been operating inside Tolvern for at least thirty years. Predates the current Guild Master by two leadership generations. This isn't new. It's old money and old crime wearing a new face."
+
+DM: OK, let's call it there for tonight — good stopping point before the Records Office infiltration. Great session everyone.
+
+[End of transcript]

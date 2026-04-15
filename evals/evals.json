@@ -1,0 +1,80 @@
+{
+  "skill_name": "dnd-assistant",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Debrief my session. Here's the transcript from last night: evals/files/eval-1-transcript.txt. My campaign files are in evals/files/eval-1-campaign/.",
+      "expected_output": "Creates sessions/session-002-recap.md with an evocative title. Updates npcs/valdris-thornwood.md with new information from Session 2 using an appended update block (not overwriting existing content). Creates a new NPC file for Sister Elara (new NPC with speaking role). Creates a new NPC stub for Pell (new NPC with speaking role). Creates a new location file for the Sunken Archive. Appends new events to timeline.md. Outputs a debrief report listing all created and updated files. Raises a continuity flag for the Thornwood backstory contradiction (file says Saltmere, transcript reveals Ironhold).",
+      "files": [
+        "evals/files/eval-1-transcript.txt",
+        "evals/files/eval-1-campaign/campaign-context.md",
+        "evals/files/eval-1-campaign/npcs/valdris-thornwood.md",
+        "evals/files/eval-1-campaign/timeline.md",
+        "evals/files/eval-1-campaign/sessions/session-001-recap.md"
+      ],
+      "assertions": [
+        "Session recap file is created at sessions/session-002-recap.md",
+        "Session recap has an evocative title (not 'Session 2' or a generic label)",
+        "Session recap captures all three major scenes in order: Thornwood's apothecary, Temple of the Veil, Sunken Archive",
+        "A new NPC file is created for Sister Elara (she had a speaking role)",
+        "A new NPC file is created for Pell the Archivist (he had a speaking role)",
+        "A new location file is created for the Sunken Archive",
+        "Valdris Thornwood's existing NPC file receives an appended update block — the existing content is not deleted or rewritten",
+        "timeline.md receives new session 2 entries without losing prior session 1 entries",
+        "A continuity flag is raised for the Thornwood origin contradiction (Saltmere vs. Ironhold)",
+        "The debrief report is output to the user listing files created and files updated",
+        "The OOC DM note about Thornwood's backstory is captured under DM Notes/Reminders in the recap"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Process this session recap from our campaign. Obsidian mode is on. Transcript: evals/files/eval-2-transcript.txt, campaign root: evals/files/eval-2-campaign/.",
+      "expected_output": "All created and updated files use Obsidian wikilinks for NPC and location references. Frontmatter uses Obsidian properties format throughout. NPC files have an aliases array. Tags follow the campaign/ prefix taxonomy. Creates session-003-recap.md for the Iron Covenant campaign. Creates a new location file for the Rusted Anchor tavern. Updates Silas Renn's NPC file with session 3 information.",
+      "files": [
+        "evals/files/eval-2-transcript.txt",
+        "evals/files/eval-2-campaign/campaign-context.md",
+        "evals/files/eval-2-campaign/npcs/silas-renn.md",
+        "evals/files/eval-2-campaign/timeline.md",
+        "evals/files/eval-2-campaign/sessions/session-001-recap.md"
+      ],
+      "assertions": [
+        "Session recap is created at sessions/session-003-recap.md",
+        "NPC names that have profile files are wrapped in [[wikilinks]] in the session recap body text",
+        "Location names that have profile files are wrapped in [[wikilinks]] in the session recap body text",
+        "All new and updated files use Obsidian properties frontmatter format (no quotes on plain string values, block-style arrays)",
+        "All tags arrays use the campaign/ prefix taxonomy",
+        "NPC files created or updated have an aliases field in frontmatter (even if empty array)",
+        "No standard markdown links [text](path) are used for internal references in any file",
+        "All new file names are Obsidian-safe — no colons, pipes, hash symbols, or caret characters",
+        "A new location file is created for the Rusted Anchor tavern (party scoped it out)",
+        "Silas Renn's existing NPC file receives an appended session 3 update block"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "We just finished session 7. Here's what happened — it was mostly roleplay in a tavern, no combat. The party talked to the barkeep Mira (they've met her many times, she runs the Silver Flagon in Tolvern), learned that the merchant Aldous Krenn has gone missing, and decided to investigate. Morwen's player had a great character moment where she confessed to the party that her sister is actually working for the Serpent Crown. No transcript file, this is from memory. Campaign is at evals/files/eval-3-campaign/.",
+      "expected_output": "Creates session-007-recap.md reconstructed from DM memory. Notes in the recap that it was reconstructed from memory, not a transcript. Updates Mira's existing NPC file with new session 7 information using an appended update block. Creates a new NPC stub for Aldous Krenn (named, plot-relevant, mentioned by Mira). Captures Morwen's sister reveal as a plot thread development. Appends session 7 events to timeline.md.",
+      "files": [
+        "evals/files/eval-3-campaign/campaign-context.md",
+        "evals/files/eval-3-campaign/npcs/mira.md",
+        "evals/files/eval-3-campaign/timeline.md",
+        "evals/files/eval-3-campaign/sessions/session-001-recap.md",
+        "evals/files/eval-3-campaign/sessions/session-002-recap.md",
+        "evals/files/eval-3-campaign/sessions/session-003-recap.md",
+        "evals/files/eval-3-campaign/sessions/session-004-recap.md",
+        "evals/files/eval-3-campaign/sessions/session-005-recap.md",
+        "evals/files/eval-3-campaign/sessions/session-006-recap.md"
+      ],
+      "assertions": [
+        "Session recap is created at sessions/session-007-recap.md",
+        "Session recap notes it was reconstructed from DM memory (not a full transcript)",
+        "Session recap has an evocative title reflecting the tavern setting and the Morwen revelation",
+        "Mira's existing NPC file is updated with a session 7 appended update block — existing content is preserved",
+        "A new NPC file is created for Aldous Krenn (named, plot-relevant missing merchant — no existing file exists in this campaign since prior debriefs were not run)",
+        "Morwen's sister reveal (her sister works for the Serpent Crown) is captured as a plot thread development in the session recap",
+        "timeline.md receives new session 7 entries without losing the 6 prior sessions of entries",
+        "The debrief report is output to the user listing files created and files updated"
+      ]
+    }
+  ]
+}
