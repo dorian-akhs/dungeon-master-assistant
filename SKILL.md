@@ -1,5 +1,5 @@
 ---
-name: dnd-assistant
+name: dungeon-master-assistant
 description: >
   Co-DM assistant for tabletop RPG campaigns. Use this skill whenever a DM or GM
   mentions session recaps, session debriefs, processing a session transcript, updating
@@ -14,7 +14,7 @@ description: >
   running a game and wants to document or plan it, this skill applies.
 ---
 
-# DnD Assistant — Co-DM Skill
+# Dungeon Master Assistant — Co-DM Skill
 
 This skill helps you manage your tabletop RPG campaign through structured markdown files. You remain the storyteller; Claude handles the documentation, analysis, and prep work.
 
@@ -26,13 +26,13 @@ All campaign state lives in markdown files in your working directory. Every agen
 
 Choose the agent based on what the user wants to do:
 
-| User wants to... | Agent | File |
-|---|---|---|
-| Process a session transcript or notes, update campaign files after a session | **Debriefer** | `agents/debriefer.md` |
-| Build or expand the world — geography, factions, history, magic system | **World Builder** | `agents/world-builder.md` |
-| Design the campaign arc, player hooks, three-act structure, plot threads | **Campaign Architect** | `agents/campaign-architect.md` |
-| Prep the next session — scenes, NPC voice, encounter balance | **Session Planner** | `agents/session-planner.md` |
-| Check whether a specific fact is consistent with established lore | **Continuity Checker** | `agents/continuity-checker.md` |
+| User wants to...                                                             | Agent                  | File                           |
+| ---------------------------------------------------------------------------- | ---------------------- | ------------------------------ |
+| Process a session transcript or notes, update campaign files after a session | **Debriefer**          | `agents/debriefer.md`          |
+| Build or expand the world — geography, factions, history, magic system       | **World Builder**      | `agents/world-builder.md`      |
+| Design the campaign arc, player hooks, three-act structure, plot threads     | **Campaign Architect** | `agents/campaign-architect.md` |
+| Prep the next session — scenes, NPC voice, encounter balance                 | **Session Planner**    | `agents/session-planner.md`    |
+| Check whether a specific fact is consistent with established lore            | **Continuity Checker** | `agents/continuity-checker.md` |
 
 When the user's request clearly maps to one agent, read that agent's file and follow its instructions. When it's ambiguous, ask which they want.
 
@@ -60,11 +60,11 @@ campaign-arc/             # Optional — plot threads, adventure arcs
 
 **File creation thresholds:**
 
-| Entity | Create a file when... | Otherwise... |
-|---|---|---|
-| NPC | Named character with speaking role, OR named in 2+ sessions | Note in session recap only |
-| Location | Party visited it, OR named place with significant lore | Note in session recap only |
-| Timeline entry | Event with future consequence or revealed cause | Skip |
+| Entity         | Create a file when...                                       | Otherwise...               |
+| -------------- | ----------------------------------------------------------- | -------------------------- |
+| NPC            | Named character with speaking role, OR named in 2+ sessions | Note in session recap only |
+| Location       | Party visited it, OR named place with significant lore      | Note in session recap only |
+| Timeline entry | Event with future consequence or revealed cause             | Skip                       |
 
 **Modification rule:** Files are append-only. Never delete or rewrite history. For known entities with new information, add a dated update block. See `references/campaign-memory-system.md` for full rules.
 
@@ -106,10 +106,10 @@ Suggested next step after bootstrap: run the World Builder to create `world-bibl
 
 ## Reference Files
 
-| File | When to read it |
-|---|---|
-| `references/campaign-memory-system.md` | Any time you're reading from or writing to campaign files — this defines the rules |
-| `references/obsidian-integration.md` | When `obsidian: true` and you need the full properties format, tag taxonomy, or Dataview fields |
+| File                                   | When to read it                                                                                 |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `references/campaign-memory-system.md` | Any time you're reading from or writing to campaign files — this defines the rules              |
+| `references/obsidian-integration.md`   | When `obsidian: true` and you need the full properties format, tag taxonomy, or Dataview fields |
 
 ---
 
@@ -120,27 +120,35 @@ Common invocations the DM can use:
 ```
 Debrief my session — [attach transcript.txt or paste transcript]
 ```
+
 ```
 Process last night's session from memory: [describe what happened]
 ```
+
 ```
 Build my world bible — let's start the interview
 ```
+
 ```
 Design the main campaign arc for [campaign name]
 ```
+
 ```
 Plan session [N]
 ```
+
 ```
 Check continuity: is it consistent that [specific claim]?
 ```
+
 ```
 Run a full continuity audit
 ```
+
 ```
 Create an NPC profile for [name]: [brief description]
 ```
+
 ```
 Create a location profile for [place]: [brief description]
 ```
