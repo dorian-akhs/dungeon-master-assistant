@@ -5,6 +5,7 @@ setting: "Homebrew"
 tone: "heroic fantasy"
 campaign_name: "Untitled Campaign"
 start_date: ""
+lang: ""
 obsidian: false
 obsidian_vault_root: "."
 house_rules: []
@@ -22,6 +23,24 @@ players:
 This file is the constitution of your campaign. Every AI agent reads it first before taking any action. Keep it up to date — it is the single source of truth for the campaign's fundamental facts.
 
 Do not delete this file. Add to it as your campaign evolves.
+
+---
+
+## Language
+
+The `lang:` field in the frontmatter sets the default language for all agent responses. Leave it empty to have agents mirror the language of your input automatically.
+
+Set it when your campaign files are written in a specific language but you sometimes send messages in another:
+
+```yaml
+lang: "fr"   # French
+lang: "es"   # Spanish
+lang: "it"   # Italian
+lang: "de"   # German
+lang: "en"   # English (default)
+```
+
+Frontmatter keys, file names, slugs, and tags always remain in English regardless of this setting.
 
 ---
 

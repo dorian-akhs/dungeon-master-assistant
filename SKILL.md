@@ -7,9 +7,30 @@ description: >
   arcs, adventure planning, faction tracking, location discovery, or timeline management.
   Also trigger for any mention of D&D, Pathfinder, Call of Cthulhu, Blades in the Dark,
   Shadowdark, Mörk Borg, or any other tabletop RPG system in the context of managing
-  campaign content. Trigger on phrases like: "debrief my session", "process my transcript",
+  campaign content.
+  English trigger phrases: "debrief my session", "process my transcript",
   "update my campaign files", "create an NPC profile", "plan next session", "check lore
-  consistency", "build my world bible", "what happened last session", or "check continuity".
+  consistency", "build my world bible", "what happened last session", "check continuity".
+  French trigger phrases: "débriefe ma session", "compte-rendu de session", "résumé de
+  séance", "traite ma transcription", "mets à jour mes notes de campagne", "crée un profil
+  de PNJ", "prépare la prochaine séance", "vérifie la cohérence du lore", "vérifie la
+  continuité", "construis ma bible du monde", "qu'est-ce qui s'est passé la dernière
+  séance", "jeu de rôle", "maître du jeu", "MJ".
+  Spanish trigger phrases: "resumen de sesión", "debriefing de sesión", "procesa mi
+  transcripción", "actualiza mis notas de campaña", "crea un perfil de PNJ", "planifica
+  la próxima sesión", "verifica la consistencia del lore", "comprueba la continuidad",
+  "construye mi biblia del mundo", "qué pasó en la última sesión", "juego de rol",
+  "máster", "director de juego", "DJ".
+  Italian trigger phrases: "resoconto della sessione", "debriefa la mia sessione",
+  "elabora la mia trascrizione", "aggiorna le mie note di campagna", "crea un profilo PNG",
+  "pianifica la prossima sessione", "verifica la coerenza del lore", "controlla la
+  continuità", "costruisci la mia bibbia del mondo", "cosa è successo nell'ultima
+  sessione", "gioco di ruolo", "master", "narratore".
+  German trigger phrases: "Sitzungszusammenfassung", "debriefe meine Sitzung",
+  "verarbeite mein Transkript", "aktualisiere meine Kampagnendateien", "erstelle ein
+  NSC-Profil", "plane die nächste Sitzung", "überprüfe die Lore-Konsistenz", "überprüfe
+  die Kontinuität", "erstelle meine Weltbibel", "was ist in der letzten Sitzung passiert",
+  "Rollenspiel", "Spielleiter", "SL".
   Use this skill even if the user doesn't explicitly call it a "campaign" — if someone is
   running a game and wants to document or plan it, this skill applies.
 ---
@@ -17,6 +38,22 @@ description: >
 # Dungeon Master Assistant — Co-DM Skill
 
 This skill helps you manage your tabletop RPG campaign through structured markdown files. You remain the storyteller; Claude handles the documentation, analysis, and prep work.
+
+---
+
+## Language Policy
+
+Always detect the language of the user's input and respond entirely in that language — questions, summaries, section headers in your output, and all conversational text.
+
+If `lang:` is set in `campaign-context.md`, treat it as the default response language even when the user's message is in another language (useful when the campaign files are in a different language than the conversation).
+
+**What stays in English regardless of language:**
+- Frontmatter keys (`system:`, `obsidian:`, `lang:`, etc.)
+- File names and slugs (`npcs/lady-morvaine.md`)
+- Obsidian wikilinks (link targets must match file names)
+- Tags (`campaign/npc`, `campaign/location`, etc.)
+
+Everything else — prose, questions, section bodies, debrief reports, voice prep cards, continuity reports — is written in the detected or configured language.
 
 All campaign state lives in markdown files in your working directory. Every agent reads `campaign-context.md` first — keep it current and the whole system works.
 
