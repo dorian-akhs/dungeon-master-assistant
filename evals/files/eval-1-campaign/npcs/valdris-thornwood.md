@@ -4,7 +4,7 @@ aliases: []
 status: alive
 affiliation: ["Independent"]
 first_appeared: "Session 1"
-last_seen: "Session 1"
+last_seen: "Session 2"
 disposition: complex
 tags:
   - campaign/npc
@@ -42,6 +42,10 @@ His fifteen years of Ash Plague research includes a treatment method that doesn'
 ### Session 1
 
 The PCs were given Thornwood's name as a potential contact by an unnamed source. They met him briefly — he was cautious, gave them minimal information, agreed to meet again. Cassiel kept the contact letter he sent them.
+
+### Session 2
+
+The party arrived at his apothecary in the morning after his letter's warning. Thornwood reported a storeroom break-in two nights prior involving his Veilstone-independent Ash Plague treatment formula. He named Guild surveillance as the likely motive and provided a notebook listing three trusted contacts, beginning with Sister Elara at the Temple of the Veil. In conversation he stated he grew up in Ironhold and understands Guild operations from that background. He did not accompany the party further.
 
 ## DM Secrets
 

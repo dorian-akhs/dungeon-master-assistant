@@ -6,7 +6,7 @@ status: alive
 affiliation:
   - Brotherhood (Eastern District)
 first_appeared: Session 1
-last_seen: Session 2
+last_seen: Session 3
 disposition: neutral
 tags:
   - campaign/npc
@@ -47,6 +47,10 @@ Observed at a Brotherhood-attended Covenant coordination meeting. Oryn recognize
 ### Session 2
 
 Present in the background during the party's covert entry to the Collapsed Tower. Did not intervene.
+
+### Session 3
+
+Approached [[Oryn]] and [[Petra]] in a Tanner's District alley after their sewer exit. Warned that the Collapsed Tower fallout would draw Brotherhood scrutiny, then pivoted to personal business: the Hollow Knight manufactory plans, if realized, violate the core premise of the eleven-year Brotherhood–Covenant treaty (no autonomous iron constructs in city limits at scale). Claimed mass-produced Hollow Knights would void the treaty and destabilize the city. Alleged eastern district leadership has been compromised by Covenant favors. Directed the party to meet him next at the [[Rusted Anchor]] in Dockside. [[Petra]]'s read: he believed what he said; not a performed lie.
 
 ## DM Secrets
 

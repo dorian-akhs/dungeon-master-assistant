@@ -4,7 +4,7 @@ aliases: ["Mira Harrow"]
 status: alive
 affiliation: ["Silver Flagon (owner)"]
 first_appeared: "Session 1"
-last_seen: "Session 6"
+last_seen: "Session 7"
 disposition: friendly
 tags:
   - campaign/npc
@@ -63,6 +63,10 @@ Mira mentioned that a merchant named Aldous Krenn had stopped coming in — he'd
 ### Session 6
 
 The party asked Mira directly if she knew anything about the Serpent Crown's presence in the district. She gave them a very careful non-answer: "I know better than to know things like that." They let it drop.
+
+### Session 7
+
+Hosted a low-key evening at the Silver Flagon — mostly talk, no violence. Mira circled back to Aldous Krenn: he's still missing, and she's still uneasy about it. She didn't push theatrically; she asked the party plainly to keep digging if they're willing. They said they would. She witnessed (without prying into specifics) that the table's mood shifted after Morwen shared something heavy with Cassiel and Dax.
 
 ## DM Secrets
 

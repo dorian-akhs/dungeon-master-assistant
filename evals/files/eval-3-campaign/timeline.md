@@ -38,3 +38,9 @@
 - Acolyte's current status: in hiding, party has promised to protect him if he testifies
 - NPC introduced: Brother Edwyn (compromised acolyte)
 - Plot thread advanced: Temple infiltration — from suspected to confirmed
+
+## Session 7 — Flagon Night (memory reconstruction)
+- Roleplay-focused evening at the Silver Flagon; no combat
+- Mira reiterated concern about missing merchant Aldous Krenn; party committed to continue investigation
+- Morwen disclosed to the party that her sister works for the Serpent Crown
+- Aldous Krenn remains missing; party continues the disappearance thread
