@@ -44,13 +44,13 @@ Files follow an **append-only** principle — history is never deleted or rewrit
 
 The skill routes requests to the appropriate specialist agent:
 
-| You want to...                                          | Agent                |
-| ------------------------------------------------------- | -------------------- |
-| Process a session transcript or update files after play  | **Debriefer**        |
-| Build or expand the world                                | **World Builder**    |
-| Design the campaign arc and plot threads                 | **Campaign Architect** |
-| Prep the next session                                    | **Session Planner**  |
-| Verify lore consistency                                  | **Continuity Checker** |
+| You want to...                                          | Agent                  |
+| ------------------------------------------------------- | ---------------------- |
+| Process a session transcript or update files after play | **Debriefer**          |
+| Build or expand the world                               | **World Builder**      |
+| Design the campaign arc and plot threads                | **Campaign Architect** |
+| Prep the next session                                   | **Session Planner**    |
+| Verify lore consistency                                 | **Continuity Checker** |
 
 Each agent has its own detailed playbook under `agents/` with phase-by-phase instructions, edge case handling, and output formats.
 
@@ -61,17 +61,17 @@ Each agent has its own detailed playbook under `agents/` with phase-by-phase ins
 This is a pure-markdown skill — no dependencies, no build step.
 
 **Claude Code** (plugin marketplace):
+
 ```bash
 /plugin marketplace add dorian-akhs/dungeon-master-assistant
 /plugin install dungeon-master-assistant@dungeon-master-assistant
 ```
 
 **Claude Code** (manual) — Add to your `CLAUDE.md` or `.claude/skills/`:
+
 ```
 Read /path/to/dungeon-master-assistant/SKILL.md for TTRPG campaign management.
 ```
-
-**Cursor** (marketplace) — Install from the [Cursor Marketplace](https://cursor.com/marketplace) by searching for `dungeon-master-assistant`.
 
 **Cursor** (manual) — Add to your [skills configuration](https://docs.cursor.com/context/skills):
 
@@ -104,21 +104,27 @@ From there, start debriefing sessions or build out your world bible.
 ```
 Debrief my session — [attach transcript or paste it]
 ```
+
 ```
 Process last night's session from memory: [describe what happened]
 ```
+
 ```
 Build my world bible — let's start the interview
 ```
+
 ```
 Design the main campaign arc
 ```
+
 ```
 Plan session 5
 ```
+
 ```
 Check continuity: is it consistent that Valdris grew up in Saltmere?
 ```
+
 ```
 Run a full continuity audit
 ```
@@ -140,6 +146,7 @@ Your campaign root can be your vault or a subfolder within it. The graph view tu
 Works with any TTRPG: D&D, Pathfinder, Call of Cthulhu, Blades in the Dark, Shadowdark, Mörk Borg, FATE, homebrew systems, anything. The skill never assumes D&D rules unless your `campaign-context.md` says so. If you're running Blades in the Dark, agents speak in terms of clocks and positions — not hit points and spell slots.
 
 System knowledge comes from three sources:
+
 1. `campaign-context.md` — the `system:` field
 2. `world-bible.md` — your magic/technology rules
 3. Your answers during interviews and planning
@@ -185,11 +192,11 @@ evals/
 
 The `evals/` directory contains three behavioral test scenarios:
 
-| Eval | Tests | Key Assertions |
-|------|-------|----------------|
-| **1** | Standard debrief from transcript | New recap, NPC creation/updates, append-only timeline, continuity flag for contradictions, OOC note capture |
-| **2** | Obsidian mode output | Wikilinks, properties format, tag taxonomy, aliases, no mixed link styles, safe filenames |
-| **3** | Memory-only debrief (no transcript) | Reconstruction disclaimer, long-running timeline integrity, NPC stub creation from plot context |
+| Eval  | Tests                               | Key Assertions                                                                                              |
+| ----- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **1** | Standard debrief from transcript    | New recap, NPC creation/updates, append-only timeline, continuity flag for contradictions, OOC note capture |
+| **2** | Obsidian mode output                | Wikilinks, properties format, tag taxonomy, aliases, no mixed link styles, safe filenames                   |
+| **3** | Memory-only debrief (no transcript) | Reconstruction disclaimer, long-running timeline integrity, NPC stub creation from plot context             |
 
 Each eval includes input files (transcripts, pre-existing campaign state) and a checklist of assertions the output must satisfy.
 
