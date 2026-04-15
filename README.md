@@ -58,7 +58,18 @@ Each agent has its own detailed playbook under `agents/` with phase-by-phase ins
 
 ### Installation
 
-This is a pure-markdown skill — no dependencies, no build step. Clone it and point your AI tool at it.
+This is a pure-markdown skill — no dependencies, no build step.
+
+**Claude Code** (plugin marketplace):
+```bash
+/plugin marketplace add dorian-akhs/dungeon-master-assistant
+/plugin install dungeon-master-assistant@dungeon-master-assistant
+```
+
+**Claude Code** (manual) — Add to your `CLAUDE.md` or `.claude/skills/`:
+```
+Read /path/to/dungeon-master-assistant/SKILL.md for TTRPG campaign management.
+```
 
 **Cursor** — Add to your [skills configuration](https://docs.cursor.com/context/skills):
 
@@ -70,11 +81,6 @@ This is a pure-markdown skill — no dependencies, no build step. Clone it and p
     }
   ]
 }
-```
-
-**Claude Code** — Add to your `CLAUDE.md` or `.claude/skills/`:
-```
-Read /path/to/dungeon-master-assistant/SKILL.md for TTRPG campaign management.
 ```
 
 The skill is designed to work with any LLM assistant that supports reading external instruction files.

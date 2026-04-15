@@ -1,0 +1,23 @@
+{
+  "name": "dungeon-master-assistant",
+  "description": "Co-DM assistant for tabletop RPG campaigns — session debriefs, world-building, campaign arcs, session prep, and continuity checking through structured markdown files",
+  "version": "1.0.0",
+  "author": {
+    "name": "dorian-akhs"
+  },
+  "homepage": "https://github.com/dorian-akhs/dungeon-master-assistant",
+  "repository": "https://github.com/dorian-akhs/dungeon-master-assistant",
+  "license": "MIT",
+  "keywords": [
+    "ttrpg",
+    "dungeon-master",
+    "dnd",
+    "campaign-management",
+    "session-recap",
+    "world-building",
+    "obsidian",
+    "pathfinder",
+    "tabletop-rpg"
+  ],
+  "skills": ["."]
+}
