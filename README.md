@@ -71,7 +71,9 @@ This is a pure-markdown skill — no dependencies, no build step.
 Read /path/to/dungeon-master-assistant/SKILL.md for TTRPG campaign management.
 ```
 
-**Cursor** — Add to your [skills configuration](https://docs.cursor.com/context/skills):
+**Cursor** (marketplace) — Install from the [Cursor Marketplace](https://cursor.com/marketplace) by searching for `dungeon-master-assistant`.
+
+**Cursor** (manual) — Add to your [skills configuration](https://docs.cursor.com/context/skills):
 
 ```json
 {
